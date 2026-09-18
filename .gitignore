@@ -1,0 +1,16 @@
+# Generated run state and products
+outputs/
+__pycache__/
+*.py[cod]
+
+# Map products must be copied from the same upstream run.
+inputs/map/*
+!inputs/map/README.md
+
+# Reference photos are local inputs; retain only their descriptions.
+inputs/style_references/**/*.png
+inputs/style_references/**/*.jpg
+inputs/style_references/**/*.jpeg
+inputs/style_references/**/*.webp
+inputs/style_references/**/*.tif
+inputs/style_references/**/*.tiff

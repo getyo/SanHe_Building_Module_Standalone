@@ -1,0 +1,112 @@
+{
+  "id": "rural_sanhe_approved_v1",
+  "geometry": {
+    "roof_eave_m": 0.32,
+    "roof_thickness_m": 0.14,
+    "roof_end_overhang_m": 0.26,
+    "ridge_end_overhang_m": 0.3,
+    "window_sill_height_m": 0.95,
+    "window_max_width_m": 2.05,
+    "window_width_ratio": 0.15,
+    "plinth_below_foundation_m": 0.07,
+    "annex_wall_height_m": 2.6
+  },
+  "materials": {
+    "BrickWall": {
+      "texture": "BrickWall.png",
+      "roughness": 0.88
+    },
+    "GrayWall": {
+      "texture": "GrayWall.png",
+      "roughness": 0.88
+    },
+    "RedTileRoof": {
+      "texture": "RedTileRoof.png",
+      "roughness": 0.68
+    },
+    "GrayTileRoof": {
+      "texture": "GrayTileRoof.png",
+      "roughness": 0.68
+    },
+    "BlueMetalRoof": {
+      "texture": "BlueMetalRoof.png",
+      "roughness": 0.68,
+      "metallic": 0.12
+    },
+    "Courtyard": {
+      "texture": "Courtyard.png",
+      "roughness": 0.88
+    },
+    "Stone": {
+      "texture": "Stone.png",
+      "roughness": 0.88
+    },
+    "WindowFrame": {
+      "color": [
+        0.17,
+        0.19,
+        0.18
+      ],
+      "roughness": 0.55
+    },
+    "WindowGlass": {
+      "color": [
+        0.055,
+        0.12,
+        0.145
+      ],
+      "roughness": 0.23,
+      "metallic": 0.32
+    },
+    "Door": {
+      "color": [
+        0.19,
+        0.085,
+        0.035
+      ],
+      "roughness": 0.68
+    },
+    "DoorPanel": {
+      "color": [
+        0.27,
+        0.125,
+        0.058
+      ],
+      "roughness": 0.7
+    },
+    "Metal": {
+      "color": [
+        0.1,
+        0.115,
+        0.12
+      ],
+      "roughness": 0.36,
+      "metallic": 0.65
+    },
+    "LightTrim": {
+      "color": [
+        0.55,
+        0.54,
+        0.48
+      ],
+      "roughness": 0.85
+    },
+    "VisualPath": {
+      "color": [
+        0.4,
+        0.39,
+        0.35
+      ],
+      "roughness": 0.85
+    }
+  },
+  "texture_assets": {
+    "BlueMetalRoof.png": "style_catalog/rural_hebei/assets/BlueMetalRoof.png",
+    "Stone.png": "style_catalog/rural_hebei/assets/Stone.png",
+    "BrickWall.png": "style_catalog/rural_hebei/assets/BrickWall.png",
+    "GrayTileRoof.png": "style_catalog/rural_hebei/assets/GrayTileRoof.png",
+    "Courtyard.png": "style_catalog/rural_hebei/assets/Courtyard.png",
+    "GrayWall.png": "style_catalog/rural_hebei/assets/GrayWall.png",
+    "RedTileRoof.png": "style_catalog/rural_hebei/assets/RedTileRoof.png"
+  }
+}

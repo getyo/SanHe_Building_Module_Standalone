@@ -1,0 +1,29 @@
+{
+  "schema": "building-details-standalone/1",
+  "inputs": {
+    "satellite": "inputs/map/satellite.tif",
+    "label": "inputs/map/labels_10x_no_boundary.tif",
+    "base_obj": "inputs/map/terrain_building.obj",
+    "base_mtl": "inputs/map/terrain_building.mtl",
+    "ground_obj": "inputs/map/terrain_ground.obj",
+    "ground_mtl": "inputs/map/terrain_ground.mtl",
+    "map_common": "inputs/map/map_common.py",
+    "style_references": "inputs/style_references"
+  },
+  "style": {
+    "mode": "auto",
+    "catalog_dir": "style_catalog",
+    "name": null,
+    "output": "outputs/specs/style.json"
+  },
+  "tasks": {
+    "mode": "fresh",
+    "reuse_file": null,
+    "output": "outputs/specs/tasks.json"
+  },
+  "outputs": {
+    "root": "outputs",
+    "ue_map": "outputs/UE_Map"
+  },
+  "blender": "C:/Users/MR/AppData/Local/Microsoft/WindowsApps/blender-launcher.exe"
+}
